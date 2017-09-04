@@ -19,7 +19,7 @@ window.Perf = Perf;
 
 render(
     // <Provider store={store}>
-        <Todo />
+        <Todo />,
     // </Provider>,
     document.getElementById('root')
 );
