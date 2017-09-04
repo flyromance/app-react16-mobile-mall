@@ -4,18 +4,18 @@ var HtmlPlugin = require('html-webpack-plugin');
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
-    entry: path.resolve(__dirname, 'app/index'),
+    entry: path.resolve(__dirname, 'app/index.js'),
     output: {
         path: path.resolve('./build'),
         filename: 'bundle.js'
     },
 
-    // resolve: {
-    //     // 必须加.
-    //     // 入口文件有后缀了，这边第一个配置就要为''空，不然会组合jsxjs，导致找不到入口文件
-    //     // 只能用webpack --display-error-details，显示详细的错误
-    //     extensions: ['', '.js', '.jsx', '.json', '.html']        
-    // },
+    resolve: {
+        // 必须加.
+        // 入口文件有后缀了，这边第一个配置就要为''空，不然会组合jsxjs，导致找不到入口文件
+        // 只能用webpack --display-error-details，显示详细的错误
+        extensions: ['', '.js', '.jsx', '.json', '.html']        
+    },
 
     module: {
         loaders: [
