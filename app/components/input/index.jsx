@@ -29,9 +29,11 @@ class Input extends Component {
         let value = e.target.value;
 
         if (e.keyCode == 13 && value.trim()) {
+            this.setState({
+                value: ''
+            });
             this.props.addItem(e.target.value);
         }
-        
     }
 }
 

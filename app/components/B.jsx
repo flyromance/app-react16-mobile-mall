@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-class B extends React.Component {
+class B extends Component {
     render() {
         return (
             <p>{this.props.userinfo.city}</p>

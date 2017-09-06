@@ -1,7 +1,7 @@
-import React from 'React';
+import React, { Component } from 'React';
 import PureRender from 'react-addons-pure-render-mixin'
 
-class List extends React.Component {
+class List extends Component {
     constructor(props) {
         super(props);
         

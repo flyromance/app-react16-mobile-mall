@@ -1,11 +1,11 @@
-import React from 'React';
+import React, { Component } from 'React';
 
 import Input from '../../components/input';
 import List from '../../components/list';
 
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 
-class Todo extends React.Component {
+class Todo extends Component {
     constructor(props) {
         super(props);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);

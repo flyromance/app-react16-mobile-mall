@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
@@ -8,7 +8,14 @@ import A from '../../components/A'
 import B from '../../components/B'
 import C from '../../components/C'
 
-class Hello extends React.Component {   
+class Hello extends Component {   
+    componentDidMount() {
+        this.props.userinfoActions.login({
+            userid: 'abc',
+            city: 'beijing'
+        })
+    }
+       
     render() {
         return (
             <div>
@@ -20,12 +27,6 @@ class Hello extends React.Component {
                 <C actions={this.props.userinfoActions} />
             </div>
         )
-    }
-    componentDidMount() {
-        this.props.userinfoActions.login({
-            userid: 'abc',
-            city: 'beijing'
-        })
     }
 }
 
