@@ -1,8 +1,8 @@
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+var path = require('path')
+var webpack = require('webpack')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
+var OpenBrowserPlugin = require('open-browser-webpack-plugin')
 
 // console.log(process.env.NODE_ENV)
 
@@ -58,11 +58,16 @@ module.exports = {
 
     devServer: {
         proxy: {
-
+            '/api': {
+                target: "http://127.0.0.1:8002",
+                secure: false // 不加不能跨越
+            }
         },
         quiet: true, // 不显示详细的打包细节
         contentBase: './build',
+        historyApiFallback: true, //不跳转
         port: 8080,
+        colors: true,
         inline: true, //实时刷新
         hot: true  // 使用热加载插件 HotModuleReplacementPlugin
     },

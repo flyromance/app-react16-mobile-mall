@@ -1,0 +1,33 @@
+.list-item {
+    & + .list-item {
+        margin-top: 10px;
+    }
+
+    .list-item-title {
+        position: relative;
+
+        h3 {
+            margin-right: 100px;
+        }
+
+        .list-item-distance {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .list-item-icon {
+        width: 200px;
+        height: 150px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .list-item-content {
+        margin-left: 215px;
+    }
+}

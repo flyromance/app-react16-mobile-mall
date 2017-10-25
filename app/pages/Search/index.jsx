@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 import { hashHistory } from 'react-router'
 
-class List extends Component {
+import Header from '../../components/SearchHeader'
+import List from './subpage/List'
+
+class Search extends Component {
 	constructor() {
-		super();
+		super()
 		this.state = {
-			list: [1, 2, 3]
+			
 		}
 	}
 
@@ -18,14 +21,11 @@ class List extends Component {
 
 		return (
 			<div>
-				<ul>
-					{this.state.list.map(function (item, i) {
-						return <li key={i} onClick={that.handleClick.bind(that, item)} >to detail {item}</li>
-					})}
-				</ul>
+				<Header />
+				<List params={this.props.params}/>
 			</div>
 		)
 	}
 }
 
-export default List
+export default Search

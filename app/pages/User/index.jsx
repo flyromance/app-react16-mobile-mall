@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 
-class NotFound extends Component {
+class User extends Component {
 	constructor() {
 		super()
 		this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this)
@@ -14,4 +14,4 @@ class NotFound extends Component {
 	}
 }
 
-export default NotFound
+export default User

@@ -1,7 +1,7 @@
 import React, { Component } from 'React';
 
 import Input from '../../components/input';
-import List from '../../components/list';
+import List from '../../components/HomeList';
 
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 

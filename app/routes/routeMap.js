@@ -3,11 +3,11 @@ import { Router, Route, IndexRoute } from 'react-router'
 
 import Wrapper from "../pages/Wrapper"
 import Home from "../pages/Home"
-import List from "../pages/List"
+import City from "../pages/City"
+import Search from "../pages/Search"
 import Detail from "../pages/Detail"
-import Hello from "../pages/Hello"
+import User from "../pages/User"
 import NotFound from "../pages/NotFound"
-import Todo from "../pages/Todo"
 
 class RouterMap extends Component {
 	render() {
@@ -16,10 +16,10 @@ class RouterMap extends Component {
 	        	<Route path='/' component={Wrapper}>
 					<IndexRoute component={Home} />
 					<Route path="home" component={Home} />
-					<Route path="list" component={List} />
+					<Route path="city" component={City} />
+					<Route path="search/:type(/:keyword)" component={Search} />
 					<Route path="detail/:id" component={Detail} />
-					<Route path="hello" component={Hello} />
-					<Route path="todo" component={Todo} />
+					<Route path="user" component={User} />
 					<Route path="*" component={NotFound} />
 				</Route>
 	        </Router>
