@@ -90,7 +90,7 @@ module.exports = {
 
         // 自定义：全局构建时变量
         new webpack.DefinePlugin({
-            __DEV__: JSON.stringify(process.env.NODE_ENV === 'dev' ? true : false)
+            __DEV__: JSON.stringify(process.env.NODE_ENV === 'development' ? true : false)
         }),
     ]
 }
