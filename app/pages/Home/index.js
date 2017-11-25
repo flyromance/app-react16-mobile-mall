@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-import HomeHeader from '../../components/HomeHeader'
-import Category from '../../components/Category'
-import Ad from './subpage/Ad'
-import List from './subpage/List'
+import HomeHeader from '@/components/HomeHeader'
+import Category from '@/components/Category'
+import Ad from './subpage/ad'
+import List from './subpage/list'
 
 import './subpage/style.less'
 

@@ -8,13 +8,7 @@ import configureStore from './store/configureStore'
 // 导入样式
 import './static/style/common.less'
 
-import RouterMap from './routes/routeMap'
-
-import Perf from 'react-addons-perf'
-
-if (__DEV__) {
-    window.Perf = Perf
-}
+import RouterMap from './routes/routes'
 
 const store = configureStore()
 

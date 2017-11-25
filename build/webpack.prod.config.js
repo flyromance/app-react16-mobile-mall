@@ -82,7 +82,11 @@ module.exports = {
     ],
 
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+        // modules: ['./app', 'node_modules'],
+        alias: {
+            '@': resolve('app'),
+        }
     },
 
 }

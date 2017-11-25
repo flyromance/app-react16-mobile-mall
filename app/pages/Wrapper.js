@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
+// import { PropTypes } from 'react' // 自从15.5.0之后不建议这么用了，对象还是有的，估计16之后就移除了; 建议用 prop-types这个模块
+import PropTypes from 'prop-types' 
 
 class Wrapper extends Component {
     constructor() {
@@ -10,7 +11,7 @@ class Wrapper extends Component {
     }
 
     componentDidMount() {
-        var that = this
+        // var that = this
         // setTimeout(function () {
         //     that.setState({
         //         initDone: true
@@ -27,6 +28,14 @@ class Wrapper extends Component {
             </div>
         )
     }
+}
+
+Wrapper.propTypes = {
+    children: PropTypes.element
+}
+
+Wrapper.defaultProps = {
+    
 }
 
 export default Wrapper
