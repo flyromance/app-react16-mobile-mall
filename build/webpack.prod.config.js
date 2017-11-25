@@ -17,10 +17,6 @@ module.exports = {
         publicPath: '/',
     },
 
-    resolve: {
-        extensions: ['', '.js', '.jsx']
-    },
-
     module: {
         loaders: [
             {
@@ -83,5 +79,10 @@ module.exports = {
             name: 'vendor',
             filename: '[name].[chunkhash:8].js'
         })
-    ]
+    ],
+
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
+
 }

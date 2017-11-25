@@ -1,5 +1,5 @@
 node_modules
-build/
+dist/
 .idea
 .DS_Store
 ._.DS_Store

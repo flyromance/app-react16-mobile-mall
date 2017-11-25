@@ -31,65 +31,37 @@ class Category extends Component {
                         <ul className="category-list">
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224309185-1519181081.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224309185-1519181081.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
-                                </div>
-                                <p className="category-title">KTV</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul className="category-list">
-                            <li className="category-item">
-                                <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
-                                </div>
-                                <p className="category-title">KTV</p>
-                            </li>
-                            <li className="category-item">
-                                <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
-                                </div>
-                                <p className="category-title">KTV</p>
-                            </li>
-                            <li className="category-item">
-                                <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
-                                </div>
-                                <p className="category-title">KTV</p>
-                            </li>
-                            <li className="category-item">
-                                <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
@@ -99,25 +71,53 @@ class Category extends Component {
                         <ul className="category-list">
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>
                             <li className="category-item">
                                 <div className="category-icon">
-                                    <img src="http://images2015.cnblogs.com/blog/138012/201610/138012-20161022224203170-1528315005.png" />
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
+                                </div>
+                                <p className="category-title">KTV</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul className="category-list">
+                            <li className="category-item">
+                                <div className="category-icon">
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
+                                </div>
+                                <p className="category-title">KTV</p>
+                            </li>
+                            <li className="category-item">
+                                <div className="category-icon">
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
+                                </div>
+                                <p className="category-title">KTV</p>
+                            </li>
+                            <li className="category-item">
+                                <div className="category-icon">
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
+                                </div>
+                                <p className="category-title">KTV</p>
+                            </li>
+                            <li className="category-item">
+                                <div className="category-icon">
+                                    <img src="http://p3.qhimg.com/t01ec06bf52d1cdddb5.png" />
                                 </div>
                                 <p className="category-title">KTV</p>
                             </li>

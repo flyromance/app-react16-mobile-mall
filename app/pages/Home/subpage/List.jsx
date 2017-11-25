@@ -23,11 +23,11 @@ class HomeList extends Component {
     }
 
     fetchData() {
-        var page = ++this.state.page;
+        var page = this.state.page;
 
         this.setState({
             isLoading: true,
-            page: page
+            page: ++page
         })
 
         getListData(page, 'beijing').then(function (res) {

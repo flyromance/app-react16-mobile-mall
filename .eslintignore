@@ -1,0 +1,15 @@
+# 规则同.gitignore; 
+# 路径相对于.eslingingnore文件; 
+# 总是忽略node_modules/ 和 bower_components/
+# !表示取反
+
+
+# 当前目录下的mock文件夹中所有文件
+# 注意: mock/ 不仅仅是当前目录下的mock文件夹了，而是项目下所有mock文件夹内的文件
+mock/**
+
+# 
+dist/**
+
+build/**
+

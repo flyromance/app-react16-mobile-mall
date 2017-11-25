@@ -14,9 +14,9 @@ export default function (url, data) {
         method: 'post',
         credentials: 'include',
         headers: {
-            "Accept": "application/json, text/plain, */*",
+            'Accept': "application/json, text/plain, */*",
             "Content-Type": "application/x-www-form-urlendcoded"
         },
-        body: jsonToStr(data)
+        body: encodeJson(data)
     })
 }
