@@ -10,7 +10,6 @@ import configureStore from './store/configureStore'
 import RouterMap from './routes'
 
 const store = configureStore()
-
 render(
     <Provider store={store}>
         <RouterMap history={hashHistory} />

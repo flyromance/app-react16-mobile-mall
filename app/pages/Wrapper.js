@@ -38,4 +38,10 @@ Wrapper.defaultProps = {
     
 }
 
+/*
+Wrapper.contextTypes
+
+Wrapper.childContextTypes
+*/
+
 export default Wrapper
